@@ -17,10 +17,10 @@ const jobSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    // refUserId: {
-    //     type: mongoose.Types.ObjectId,
-    //     required: true,
-    // }
+    refUserId: {
+        type: mongoose.Types.ObjectId,
+        required: true,
+    }
 });
 
 

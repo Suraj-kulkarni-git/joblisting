@@ -18,7 +18,7 @@ router.post("/create",jwtVerify, async (req,res)=>{
             title, 
             description, 
             logoUrl,
-            // refUserId: req.body.userId,
+            refUserId: req.body.userId,
         });
 
         await jobDetails.save();
